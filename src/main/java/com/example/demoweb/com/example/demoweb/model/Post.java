@@ -11,6 +11,7 @@ public class Post {
         return likes;
     }
 
+
     public Post(String text) {
         this.text = text;
         creationDate = new Date();

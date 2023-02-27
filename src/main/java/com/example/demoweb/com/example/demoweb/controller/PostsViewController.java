@@ -1,5 +1,6 @@
 package com.example.demoweb.com.example.demoweb.controller;
 
+
 import com.example.demoweb.com.example.demoweb.service.PostService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -27,3 +28,4 @@ public class PostsViewController {
         return "Здесь будет страница поста №" + id;
     }
 }
+
